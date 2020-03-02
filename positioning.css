@@ -1,0 +1,45 @@
+*{
+    box-sizing:border-box;
+}
+
+
+.relbox{
+    background-color: rgba(211, 211, 211, 0.726);
+    height: 250px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.relbox1{
+    background-color: rgb(169, 169, 169);
+    height: 100px;
+    width: 25%;
+    position: absolute;
+    bottom: 210px;
+    right: 300px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 230px;
+    margin: 0px;
+}
+
+.relbox2{
+    background-color: darkgray;
+    height: 150px;
+    width: 15%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    text-align: center;
+    padding: 40px;
+    margin: 0px;
+}
+
+.box{
+    width: 640px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+}
